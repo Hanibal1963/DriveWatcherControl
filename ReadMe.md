@@ -10,8 +10,8 @@ Grundlage und Anregung für dieses Control stammen aus dem Internet.
 
 ## neue Ereignisse
 
-- DriveAdded - wird ausgelöst wenn ein Laufwerk hinzugefügt wurde.
-- DriveRemoved - Wird ausgelöst wenn ein Laufwerk entfernt wurde.
+- **DriveAdded** - wird ausgelöst wenn ein Laufwerk hinzugefügt wurde.
+- **DriveRemoved** - Wird ausgelöst wenn ein Laufwerk entfernt wurde.
 
 ## geplante Änderungen und Funktionen
 

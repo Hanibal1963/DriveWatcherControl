@@ -4,8 +4,10 @@
         <Identity Id="DriveWatcherControl.35c74656-0539-4d52-ae12-5442684ee262" Version="1.2024.0127.00" Language="de-DE" Publisher="Andreas Sauer" />
         <DisplayName>DriveWatcherControl</DisplayName>
         <Description xml:space="preserve">Control zum Überwachen der Laufwerke.</Description>
+        <MoreInfo>https://github.com/Hanibal1963/DriveWatcherControl</MoreInfo>
         <License>LICENSE.txt</License>
         <Icon>PapaSchlumpf.ico</Icon>
+        <Tags>Laufwerke,Windows,Forms,Überwachung</Tags>
     </Metadata>
     <Installation>
         <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">

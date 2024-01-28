@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SchlumpfSoft.Controls.DriveWatcherControl.DriveWatcher">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <Members>
+      <Field Name="_Form" Hidden="true" />
+      <Method Name="_Form_DriveAdded" Hidden="true" />
+      <Method Name="_Form_DriveRemoved" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAACAABAAAACAAAAAAAAAAAEA=</HashCode>
+      <FileName>DriveWatcher.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchlumpfSoft.Controls.DriveWatcherControl.DriveWatcherControlPackage">
+    <Position X="7.75" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DriveWatcherControlPackage.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchlumpfSoft.Controls.DriveWatcherControl.ProvideToolboxControlAttribute">
+    <Position X="10.25" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAABIAAAAAAgAAAAAAAAAgQAAAABAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>ProvideToolboxControlAttribute.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SchlumpfSoft.Controls.DriveWatcherControl.DriveAddedEventArgs">
+    <Position X="3" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAABACAAAAIAIAAAAAAAAAAAAAAADQAAAAAAAAA=</HashCode>
+      <FileName>EventArgsDefinitions.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SchlumpfSoft.Controls.DriveWatcherControl.DriveRemovedEventArgs">
+    <Position X="5.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventArgsDefinitions.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SchlumpfSoft.Controls.DriveWatcherControl.DEV_BROADCAST_HDR">
+    <Position X="0.5" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>StructureDefinitions.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SchlumpfSoft.Controls.DriveWatcherControl.DEV_BROADCAST_OEM">
+    <Position X="3" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEEAAACQAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>StructureDefinitions.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SchlumpfSoft.Controls.DriveWatcherControl.DEV_BROADCAST_VOLUME">
+    <Position X="5.5" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAgIAAgAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>StructureDefinitions.vb</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="SchlumpfSoft.Controls.DriveWatcherControl.DBT_DEVTYP">
+    <Position X="0.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAADIAAAAAiAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StructureDefinitions.vb</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

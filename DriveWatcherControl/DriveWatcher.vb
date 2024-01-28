@@ -8,7 +8,8 @@
 Imports System.ComponentModel
 Imports System.Drawing
 
-<ProvideToolboxControl("SchlumpfSoft", False)>
+''' <summary>Steuerelement um die Laufwerke zu überwachen.</summary>
+<ProvideToolboxControl("Schlumpfsoft Controls", False)>
 <ToolboxItem(True)>
 <Description("Steuerelement um die Laufwerke zu überwachen.")>
 <ToolboxBitmap(GetType(DriveWatcher), "DriveWatcher.bmp")>
@@ -21,11 +22,13 @@ Public Class DriveWatcher
     ''' <summary>Wird ausgelöst wenn ein Laufwerk hinzugefügt wurde.</summary>
     ''' <param name="sender"></param>
     ''' <param name="e">Enthält die Eigenschaften zum hinzugefügten Laufwerk. (<see cref="DriveAddedEventArgs"/>)</param>
+    <Description("Wird ausgelöst wenn ein Laufwerk hinzugefügt wurde.")>
     Public Event DriveAdded(sender As Object, e As DriveAddedEventArgs)
 
     ''' <summary>Wird ausgelöst wenn ein Laufwerk entfernt wurde.</summary>
     ''' <param name="sender"></param>
     ''' <param name="e">Enthält die eigenschaften zum entfernten Laufwerk. (<see cref="DriveRemovedEventArgs"/>)</param>
+    <Description("Wird ausgelöst wenn ein Laufwerk entfernt wurde.")>
     Public Event DriveRemoved(sender As Object, e As DriveRemovedEventArgs)
 
 

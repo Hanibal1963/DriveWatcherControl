@@ -7,7 +7,7 @@ Imports Microsoft.VisualBasic
 ' set of attributes. Change these attribute values to modify the information
 ' associated with an assembly.
 <Assembly: AssemblyTitle("DriveWatcherControl")>
-<Assembly: AssemblyDescription("control zum Überwachen der Laufwerke.")>
+<Assembly: AssemblyDescription("Control zum Überwachen der Laufwerke.")>
 <Assembly: AssemblyConfiguration("")>
 <Assembly: AssemblyCompany("SchlumpfSoft")>
 <Assembly: AssemblyProduct("DriveWatcherControl")>

@@ -22,7 +22,7 @@ DriveWatcher Control wurde mit folgenden Geräten wurde getestet:
 
 ## Versionsinformationen
 
-05.05.2026 (1.2026.0505)
+ **1.2026.0505**  (05.05.2026)
 
 - Im Dispose-Override wird nun zusätzlich geprüft, ob NatForm existiert. Falls ja, wird NatForm explizit freigegeben und auf Nothing gesetzt. Die Aufräumlogik für components wurde in einen eigenen Block verschoben, um sicherzustellen, dass sowohl NatForm als auch components korrekt entsorgt werden.
 - Eigenschaften von DriveAddedEventArgs werden nun immer mit Standardwerten initialisiert. Beim Zugriff auf Laufwerksinformationen wird ein Try-Block verwendet, um Ausnahmen wie IOException und UnauthorizedAccessException abzufangen. Die Else-Verzweigung entfällt, da Standardwerte bereits vorab gesetzt werden. Dies erhöht die Stabilität beim Umgang mit nicht verfügbaren oder gesperrten Laufwerken.

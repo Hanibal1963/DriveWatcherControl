@@ -125,7 +125,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DriveWatcherControl\DriveWatcherControl.vbproj">
-      <Project>{18393a87-a3f6-4bd9-ae09-0ac65be9f5a1}</Project>
+      <Project>{045be5b3-7d5e-4507-b73e-6357d52f4c9a}</Project>
       <Name>DriveWatcherControl</Name>
     </ProjectReference>
   </ItemGroup>

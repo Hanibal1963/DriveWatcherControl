@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="DriveWatcherControl.e23ece61-5894-4a63-bca6-ce2e6f7d2a84" Version="1.2026.0505" Language="de-DE" Publisher="Andreas Sauer" />
+        <Identity Id="DriveWatcherControl.e23ece61-5894-4a63-bca6-ce2e6f7d2a84" Version="1.2026.0517" Language="de-DE" Publisher="Andreas Sauer" />
         <DisplayName>DriveWatcherControl</DisplayName>
         <Description xml:space="preserve">Ein Control zum Überwachen der Anzahl der Laufwerke.</Description>
+        <MoreInfo>https://github.com/Hanibal1963/DriveWatcherControl</MoreInfo>
         <License>LICENSE.rtf</License>
-        <ReleaseNotes>ReleaseNotes.rtf</ReleaseNotes>
         <Icon>Icon.png</Icon>
         <Tags>Drive, Watcher, Windows, Forms, Driveinfo</Tags>
     </Metadata>

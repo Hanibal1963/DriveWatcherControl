@@ -22,7 +22,7 @@ DriveWatcher Control wurde mit folgenden Geräten wurde getestet:
 
 ## Versionsinformationen
 
- **1.2026.0505**  (05.05.2026)
+### V1.2026.0505  (05.05.2026)
 
 - Im Dispose-Override wird nun zusätzlich geprüft, ob NatForm existiert. Falls ja, wird NatForm explizit freigegeben und auf Nothing gesetzt. Die Aufräumlogik für components wurde in einen eigenen Block verschoben, um sicherzustellen, dass sowohl NatForm als auch components korrekt entsorgt werden.
 - Eigenschaften von DriveAddedEventArgs werden nun immer mit Standardwerten initialisiert. Beim Zugriff auf Laufwerksinformationen wird ein Try-Block verwendet, um Ausnahmen wie IOException und UnauthorizedAccessException abzufangen. Die Else-Verzweigung entfällt, da Standardwerte bereits vorab gesetzt werden. Dies erhöht die Stabilität beim Umgang mit nicht verfügbaren oder gesperrten Laufwerken.
@@ -34,11 +34,15 @@ DriveWatcher Control wurde mit folgenden Geräten wurde getestet:
 - DriveWatcher kann nun Netzlaufwerke erkennen. Neue Events NetworkDriveAdded und NetworkDriveRemoved wurden hinzugefügt. Die interne Ereignisbehandlung und die XML-Dokumentation wurden entsprechend erweitert. Der Event-Typ-Enum berücksichtigt jetzt auch Netzlaufwerk-Ereignisse.
 - DriveWatcher kann nun das Einlegen und Entfernen von Medien (z. B. CDs, DVDs, USB-Sticks) in vorhandenen Laufwerken erkennen. Dafür wurden die neuen Events MediaInserted und MediaRemoved sowie die zugehörigen Handler und Methoden implementiert. Die Aufzählung DriveEventType und die XML-Kommentare wurden entsprechend erweitert. Debouncing wird für die neuen Ereignisse ebenfalls berücksichtigt.
 
- **1.2026.0429** (29.04.2026)
+---
+
+### V1.2026.0429 (29.04.2026)
 
 - Testanwendung hinzugefügt
 - Kommentare überarbeitet
 
- **1.2026.0428** (28.04.2026)
+---
+
+### V1.2026.0428 (28.04.2026)
 
 - Erstveröffentlichung in dieser Form.

@@ -22,6 +22,36 @@ DriveWatcher Control wurde mit folgenden Geräten wurde getestet:
 
 ## Versionsinformationen
 
+### V1.2026.0517 (17.05.2026)
+
+Version aktualisiert, ReleaseNotes entfernt, Refactorings
+
+Die Versionsnummern wurden in mehreren Dateien aktualisiert:
+
+- `DriveWatcherControl.vbproj`, `DriveWatcherControlTest.vbproj` und `AssemblyInfo.vb`.
+
+Die Datei `ReleaseNotes.rtf` wurde aus dem Projekt entfernt:
+
+- Verweise in `DriveWatcherControl.vbproj` und `source.extension.vsixmanifest` entfernt.
+
+Ein neuer Link zur Projektseite wurde hinzugefügt:
+
+- `<MoreInfo>` in `source.extension.vsixmanifest` verweist auf GitHub.
+
+Refactorings und neue Funktionen:
+
+- Verbesserte Dispose-Logik für Ressourcenfreigabe.
+- Neue Methoden `OnDriveAdded` und `OnDriveRemoved` für bessere Erweiterbarkeit.
+- Unterstützung für Medienwechsel- und Netzlaufwerkereignisse hinzugefügt.
+- Ereignisse wie `DriveAdded` und `DriveRemoved` entprellt.
+
+Dokumentation und Testanwendung:
+
+- `README.md` überarbeitet, Versionsinformationen strukturiert.
+- Testanwendung erweitert und dokumentiert.
+
+---
+
 ### V1.2026.0505  (05.05.2026)
 
 - Im Dispose-Override wird nun zusätzlich geprüft, ob NatForm existiert. Falls ja, wird NatForm explizit freigegeben und auf Nothing gesetzt. Die Aufräumlogik für components wurde in einen eigenen Block verschoben, um sicherzustellen, dass sowohl NatForm als auch components korrekt entsorgt werden.
